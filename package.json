@@ -1,6 +1,6 @@
 {
   "name": "react-markify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component to highlight words",
   "author": "Nobuhito Kurose",
   "license": "MIT",
@@ -34,6 +34,6 @@
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest"
   },
   "peerDependencies": {
-    "react": "^15.3.0"
+    "react": ">=0.14.1"
   }
 }
