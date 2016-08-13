@@ -7,7 +7,7 @@ class App extends Component {
     targetWord: 'JavaScript',
     inputText: 'React is a JavaScript library for building user interfaces.'
   }
-  
+
   render() {
     return (
       <div>
@@ -26,7 +26,6 @@ class App extends Component {
           onChange={e => this.setState({inputText: e.target.value})}
         />
         <hr/>
-        <br/>
         <h2>Result</h2>
         <Markify targetWord={this.state.targetWord}>
           {this.state.inputText}
