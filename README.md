@@ -1,5 +1,7 @@
 # react-markify
-React component to highlight words
+React component to highlight words.
+
+Most of the codes are borrowed from [react-linkify](https://github.com/tasti/react-linkify).
 
 ## Installation
 
