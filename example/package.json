@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "NODE_ENV=dev browserify index.js -t [ babelify --presets [ es2015 stage-0 ] ] > public/bundle.js",
+    "build": "NODE_ENV=dev browserify index.js -t [ babelify --presets [ react es2015 stage-0 ] ] > public/bundle.js",
     "start": "npm run build & node server.js"
   },
   "dependencies": {
